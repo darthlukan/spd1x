@@ -8,3 +8,7 @@
 (substring "Caribou" 2 4)
 
 (substring "Caribou" 0 3)
+
+(define msg "I love Lynea Tomlinson")
+
+(substring msg 0 (string-length msg))
